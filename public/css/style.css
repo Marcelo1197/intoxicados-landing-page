@@ -1,0 +1,102 @@
+body {
+  background-color: #ffecb3;
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  background-color: #212121;
+  height: 100px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+section {
+  text-align: center;
+}
+
+section div:nth-child(2) {
+  font-family: "Roboto Mono", monospace;
+}
+
+#logo {
+  text-decoration: none;
+  font-family: "rocks_gregular", Helvetica, sans-serif;
+  font-size: 200%;
+  color: white;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+
+#social-header {
+  position: fixed;
+  right: 20px;
+  list-style: none;
+}
+
+#social-header ul {
+  list-style: none;
+}
+
+#social-header li {
+  display: inline-block;
+}
+
+#social-header a {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-facebook-square {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+#letra {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+#portada {
+  height: 300px;
+  font-family: "rocks_gregular", Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: center;
+  background-color: #783232;
+  margin-top: 100px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+#portada h1 {
+  color: #212121;
+  display: block;
+  margin-bottom: 0px;
+}
+
+#portada p {
+  display: inline;
+  color: #212121;
+  background: #bdbdbd;
+  font-family: "Roboto Mono", monospace;
+  font-size: 70%;
+  padding: 2px 10px;
+}
+
+@font-face {
+  font-family: "rocks_gregular";
+  src: url("../fonts/rockfont/gomarice_rocks-webfont.woff2") format("woff2"),
+    url("../fonts/rockfont/gomarice_rocks-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
